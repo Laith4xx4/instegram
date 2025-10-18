@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:instegram/screens/auth/login_screen.dart';
-import 'package:instegram/screens/home.dart';
 import 'package:instegram/screens/main_feed_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

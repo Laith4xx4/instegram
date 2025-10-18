@@ -47,5 +47,6 @@
     "message": "رسالة",
     "follow": "متابعة",
     "this_month_activities": "هذا الشهر",
-    "this_month_content": "محتوى هذا الشهر"
+    "this_month_content": "محتوى هذا الشهر",
+    "role_hint": "أدخل نوع الدور"
 }

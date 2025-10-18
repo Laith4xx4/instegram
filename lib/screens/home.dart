@@ -237,7 +237,7 @@ class _HomeState extends State<Home> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Text(
-                '$like'.tr() + ' ' + 'likes'.tr(),
+                '${'$like'.tr()} ${'likes'.tr()}',
                 style: const TextStyle(fontWeight: FontWeight.bold),
               ),
             ),

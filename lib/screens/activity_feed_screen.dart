@@ -187,11 +187,11 @@ class _ActivityFeedScreenState extends State<ActivityFeedScreen> {
                       ),
                       trailing: ElevatedButton(
                         onPressed: () {},
-                        child: Text('message'.tr()),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
                         ),
+                        child: Text('message'.tr()),
                       ),
                     ),
                     ListTile(
@@ -217,11 +217,11 @@ class _ActivityFeedScreenState extends State<ActivityFeedScreen> {
                       ),
                       trailing: ElevatedButton(
                         onPressed: () {},
-                        child: Text('message'.tr()),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
                         ),
+                        child: Text('message'.tr()),
                       ),
                     ),
                     ListTile(

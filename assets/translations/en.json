@@ -47,5 +47,6 @@
     "message": "Message",
     "follow": "Follow",
     "this_month_activities": "This Month",
-    "this_month_content": "This Month Content"
+    "this_month_content": "This Month Content",
+    "role_hint": "Enter your role"
 }

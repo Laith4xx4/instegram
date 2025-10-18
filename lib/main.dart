@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
- import 'package:instegram/screens/auth/login_screen.dart';
 // import 'package:instegram/screens/home.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:instegram/screens/home.dart';
 import 'package:instegram/screens/splash.dart';
 
-import 'screens/main_feed_screen.dart';
+import 'screens/auth/signup_screen.dart';
+import 'screens/main_feed_screen.dart' show MainFeedScreen;
+
 //import 'package:flutter_svg/flutter_svg.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,10 +33,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'app_title'.tr(),
       theme: ThemeData(primarySwatch: Colors.blue),
-      home:Splash(),
+      home:MainFeedScreen(),
     );
   }
 }
 //svg----------------->https://freesvgicons.com/
 //packages------------------->https://pub.dev/
 //dev------------------>https://docs.flutter.dev/ui/widgets
+//mobile------------------>adb connect 192.168.100.95:5555
